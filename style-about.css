@@ -1,0 +1,55 @@
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 30px;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .logo {
+    height: 100px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    display: block; }
+h1 {
+color: #1800b7; text-align: center;
+}
+img {
+    width: 35%;
+    height: auto; float:right;}
+body {background-color: #a1e7ff; color: #ffffff; text-align: left; font-family: futura ; font-size:medium ;}
+
+body { color: #003f21;}
+h2 { color: #1800b7;font-size: large;}
+a:link { color: #04003f; 
+        background-color: transparent;
+        text-decoration: none;
+        font-size: larger;}
+a:hover {background-color: #0e5a98;
+    color: #ffb300;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+
+}
+.book-button {
+    background-color: #ff6a00;
+    color: white;
+    padding: 50px 80px;
+    font-size: 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .book-button:hover {
+    background-color: #2a5205;
+  }
